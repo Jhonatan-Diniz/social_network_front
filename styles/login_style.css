@@ -1,0 +1,33 @@
+body {
+  background-color: #0c0c0c;
+  color: #ededed;
+  font-family: "Mulish", sans-serif;
+}
+
+.bg-dark {
+  background-color: #222427 !important;
+}
+
+.text-header {
+  color: #83ff83;
+}
+
+.btn {
+  border-color: #83ff83;
+  color: #83ff83
+}
+
+.link {
+  color: #83ff83 !important
+}
+
+.input-label {
+  background-color: #222427 !important;
+  border-color: #83ff83;
+  color: white;
+}
+
+.input-label:focus {
+  border-color: green;
+  color: white
+}

@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  background-color: #0c0c0c;
+  font-family: "Mulish", sans-serif;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 10fr 1.4fr 1fr;
+  border-bottom: 1px solid #555555;
+  padding: 1em;
+}
+
+#menu_sections {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  width: 100%;
+  align-items: center;
+}
+
+#menu_sections a {
+  color: white;
+}
+
+#menu_sections a:hover {
+  color: #3f51b5;
+}
+
+#create_post {
+  display: flex;
+  border: 1px #c9c9c9 solid;
+  padding: 3em;
+  height: 5em;
+  border-radius: 20px;
+  font-size: 1em
+}
+
+#send_btn {
+  background-color: #0c0c0c;
+  border: none;
+  width: 6em;
+  height: 4em;
+  border-radius: 25%
+}
+
+#send_img {
+  width: 2em;
+  height: 2em;
+  transition: .1s
+}
+
+#send_img:hover {
+  width: 2.3em;
+  height: 2.3em;
+  cursor: pointer
+}
+
+#input_post {
+  color: #c9c9c9;
+  border-style: none;
+  background-color: #0c0c0c;
+  border: none;
+  padding: .4em;
+  font-size: 1.3em;
+  width: 90%;
+}
+
+#input_post:focus {
+  outline: none
+}
+
+#posts {
+  overflow: auto;
+  scrollbar-style: none;
+  scrollbar-color: #2b2b2b #0c0c0c;
+  scrollbar-width: thin;
+  max-height: 78vh
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+}
+
+.post {
+  padding: 1em;
+  color: #c9c9c9;
+  margin: 1em;
+  border-bottom: 0.01px solid #555555;
+  width: 90%;
+}
+
+.user_data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.message {
+  padding: 2em;
+  font-size: 1.4em;
+}
+
+.interaction_bar {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.int_btn {
+  background-color: #0c0c0c;
+  color: white;
+  border: none;
+  padding: 1em;
+  border-radius: 10px;
+  font-size: 1em;
+  transition: 0.2s;
+}
+
+.int_btn:hover{
+  cursor: pointer;
+  background-color: #5f5f5f;
+  color: black;
+}
+
+#second_bar {
+  color: white;
+  border-left: 0.01px solid #555555;
+  height: 100%;
+  padding: 1em;
+}
+
+#profile_icon {
+  width: 4em;
+  height: 4em;
+  border-radius: 100%;
+  margin-left: 2em;
+  margin-top: 2em
+}
+
+
+#profile_image {
+  width: 100%;
+}
